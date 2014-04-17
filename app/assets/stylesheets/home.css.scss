@@ -25,8 +25,17 @@ body {
 
 #nav {
   float: right;
+  position: relative;
   margin-top: 16px;
   margin-right: 120px;
+}
+
+#nav .click-these {
+  position: absolute;
+  top: -25px;
+  left: 110px;
+  color: #ccff66;
+  display: none;
 }
 
 #nav ul{
